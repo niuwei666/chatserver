@@ -17,7 +17,10 @@ muduo  --muduo库源码编译安装和环境搭建，参考这篇博客： https
 
 nginx  --去官网下载源码即可 我用的版本是nginx 1.12.2
 
-redis  --sudo apt-get install redis-server   git clone https://github.com/redis/hiredis
+redis  --sudo apt-get install redis-server    
+
+redis支持多种不同的客户端编程语言，例如Java对应jedis、php对应phpredis、C++对应的则是hiredis。下面是安装hiredis的步骤：
+git clone https://github.com/redis/hiredis    cd hiredis     make     sudo make install
 
 mysql  --sudo apt-get install mysql-server =》 安装最新版MySQL服务器 sudo apt-get install libmysqlclient-dev =》 安装开发包
 
