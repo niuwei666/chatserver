@@ -1,10 +1,14 @@
 # chatserver
 可以工作在nginx tcp负载均衡环境中的集群聊天服务器和客户端源码，基于muduo网络库、mysql、redis实现
 
-编译方式 
+编译方式
+
 cd build
+
 rm -rf *
+
 camke ..
+
 make
 
 此项目需要用到的开发包：
